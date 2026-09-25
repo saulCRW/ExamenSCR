@@ -44,3 +44,15 @@ main h1 {
     color: #e0e7ff;
     background-color: #1e1b4b;
 }
+
+/* Pagina del invitado */
+.foto-invitado {
+    max-width: 320px;
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(30, 27, 75, 0.25);
+}
+
+.descripcion-invitado {
+    max-width: 640px;
+}
