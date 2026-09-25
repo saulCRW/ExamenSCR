@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f7ff;
+    color: #1e293b;
+}
+
+.site-nav {
+    background-color: #312e81;
+}
+
+.site-nav .navbar-brand {
+    color: #fff;
+}
+
+.site-nav .navbar-brand:hover,
+.site-nav .navbar-brand:focus {
+    color: #e0e7ff;
+}
+
+.guest-link {
+    color: #fff;
+    background-color: #4f46e5;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.guest-link:hover,
+.guest-link:focus {
+    color: #fff;
+    background-color: #6366f1;
+}
+
+main {
+    flex: 1;
+}
+
+main h1 {
+    color: #312e81;
+}
+
+.site-footer {
+    color: #e0e7ff;
+    background-color: #1e1b4b;
+}
